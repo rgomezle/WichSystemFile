@@ -44,4 +44,4 @@ if __name__ == '__main__':
 
      os_name = get_os(ttl)
 
-     print("%s (ttl -> %s): %s" % (line, ttl, os_name))
+     print("%s (ttl -> %s): %s" % (line.rstrip(), ttl, os_name))
