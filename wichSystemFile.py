@@ -32,7 +32,7 @@ def get_os(ttl):
     else:
         return "Not Found"
 
-if _name_ == '_main_':
+if __name__ == '__main__':
 
     filename = sys.argv[1]
 
